@@ -221,7 +221,7 @@ class AtlasAPI:
         # Add the intro Script
         opening_script = war_data.get("script")
         opening_script_id = war_data.get("scriptId")
-        if opening_script is not None and opening_script_id is not "NONE":
+        if opening_script is not None and opening_script_id != "NONE":
             story_quests.append(
                 {
                     "id": int(str(war_data.get("targetId"))[:-2]),
