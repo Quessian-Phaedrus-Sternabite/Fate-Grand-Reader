@@ -101,7 +101,39 @@ def _parse_command_node(token: str):
             "filter": token_parts[2],
             "tags": {"charaFilter": token},
         }
+    if command == "communicationchara" and len(token_parts) >= 5:
+        return {
+            "type": "communication_chara",
+            "chara_id": token_parts[1],
+            "position": token_parts[2],
+            "depth": token_parts[3],
+            "noisekind": token_parts[4],
+            "face": token_parts[5],
+            "tags": {"communicationChara": token},
+        }
+    if command == "communicationcharaface" and len(token_parts) >= 1:
+        return {
+            "type": "communication_charaface",
+            "face": token_parts[1],
+            "tags": {"communicationCharaFace": token},
+        }
+    if command == "communicationcharaloop" and len(token_parts) >= 5:
+        return {
+            "type": "communication_charaloop",
+            "chara_id": token_parts[1],
+            "position": token_parts[2],
+            "depth": token_parts[3],
+            "noisekind": token_parts[4],
+            "face": token_parts[5],
+            "tags": {"communicationCharaLoop": token},
+        }
+    if command == "communicationcharaclear":
+        return {
+            "type": "communication_characlear",
+            "tags": {"communicationCharaClear": token},
+            }
     return None
+
 
 
 def _is_choice_end_marker(line: str) -> bool:

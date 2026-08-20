@@ -188,7 +188,8 @@ init python:
                     "offset_x": offsets.get("offset_x"),
                     "offset_y": offsets.get("offset_y"),
                     "scale": offsets.get("scale"),
-                    "matrixcolor": 0
+                    "matrixcolor": 0,
+                    "communication_chara": False
                 }
                 refresh_visible_characters()
             return True
@@ -218,6 +219,48 @@ init python:
             chara_filter = node.get("filter")
             if slot and slot in renpy.store.current_chara_defs and chara_filter == "silhouette":
                 renpy.store.current_chara_defs[slot]["matrixcolor"] = -1
+                refresh_visible_characters()
+            return True
+        if node_type == "communication_chara":
+            chara_id = node.get("chara_id")
+            for slot_temp, data in sorted(renpy.store.current_chara_defs.items()):
+                if data.get("id") == chara_id:
+                    slot = slot_temp
+            if slot and slot in renpy.store.current_chara_defs:
+                renpy.store.current_chara_defs[slot]["communication_chara"] = True
+                renpy.store.current_chara_defs[slot]["position"] = node.get("position")
+                renpy.store.current_chara_defs[slot]["face"] = node.get("face") or "0"
+                renpy.store.current_chara_defs[slot]["offset_y"] = 0
+                renpy.store.current_chara_defs[slot]["visible"] = True
+                refresh_visible_characters()
+            return True
+        if node_type == "communication_charaface":
+            for slot_temp, data in sorted(renpy.store.current_chara_defs.items()):
+                if data.get("communication_chara") == True:
+                    slot = slot_temp
+            if slot and slot in renpy.store.current_chara_defs:
+                renpy.store.current_chara_defs[slot]["face"] = node.get("face") or "0"
+                renpy.store.current_chara_defs[slot]["visible"] = True
+                refresh_visible_characters()
+            return True
+        if node_type == "communication_charaloop":
+            chara_id = node.get("chara_id")
+            for slot_temp, data in sorted(renpy.store.current_chara_defs.items()):
+                if data.get("id") == chara_id:
+                    slot = slot_temp
+            if slot and slot in renpy.store.current_chara_defs:
+                renpy.store.current_chara_defs[slot]["communication_chara"] = True
+                renpy.store.current_chara_defs[slot]["position"] = node.get("position")
+                renpy.store.current_chara_defs[slot]["face"] = node.get("face") or "0"
+                renpy.store.current_chara_defs[slot]["visible"] = True
+                refresh_visible_characters()
+            return True
+        if node_type == "communication_characlear":
+            for slot_temp, data in sorted(renpy.store.current_chara_defs.items()):
+                if data.get("communication_chara") == True:
+                    slot = slot_temp
+            if slot and slot in renpy.store.current_chara_defs:
+                renpy.store.current_chara_defs[slot]["visible"] = False
                 refresh_visible_characters()
             return True
         return False
