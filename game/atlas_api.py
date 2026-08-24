@@ -24,6 +24,7 @@ class AtlasAPI:
     STATIC_BASE_URL = "https://static.atlasacademy.io"
     EXPORT_WAR_LIST_PATH = f"export/{lang}/nice_war.json"
     EXPORT_BGM_LIST_PATH = f"export/{lang}/nice_bgm.json"
+    EXPORT_SERVANT_LIST_PATH = f"export/{lang}/basic_servant.json"
 
     def __init__(self, region: str = lang, lang: str = "en"):
         self.region = region
@@ -128,7 +129,10 @@ class AtlasAPI:
     def get_war_list(self, force_refresh: bool = False):
         url = self._build_url(self.EXPORT_WAR_LIST_PATH)
         return self.fetch_json(url, force_refresh)
-
+    def get_servant_list(self, force_refresh: bool = False):
+        url = self._build_url(self.EXPORT_SERVANT_LIST_PATH)
+        print(self.fetch_json(url, force_refresh))
+        return self.fetch_json(url, force_refresh)
     def get_bgm_index(self, force_refresh: bool = False):
         if self._bgm_index is not None and not force_refresh:
             return self._bgm_index
@@ -329,3 +333,4 @@ class AtlasAPI:
             "raw_script": raw_script_text,
         }
         return self.active_war
+
