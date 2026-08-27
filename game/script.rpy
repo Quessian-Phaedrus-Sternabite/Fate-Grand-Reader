@@ -767,7 +767,7 @@ screen war_select():
                             else:
                                 textbutton title:
                                     action Show("war_selectMainStory", target_id=valueID)
-                                    text_color "#000000"
+                                    text_color "#1d95b3"
                             null height 8
                         
 
