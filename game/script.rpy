@@ -518,6 +518,8 @@ screen settings_screen():
             xalign 0.5
             yalign 0.5
             
+            xpos 0.706
+            
             text "Music Volume : ":
                 size 22
                 xalign 0.0
@@ -548,6 +550,9 @@ screen settings_screen():
             xalign 0.5
             yalign 0.5
             
+            xpos 0.718
+            ypos -0.5
+            
             text "Sound Volume : ":
                 #color "#000000"
                 size 22
@@ -577,6 +582,7 @@ screen settings_screen():
             has hbox
             yalign 0.5
             spacing 22
+            ypos -1.3
             text "Language : ":
                 size 22
                 xalign 0.0
@@ -618,6 +624,7 @@ screen settings_screen():
             has hbox
             yalign 0.5
             spacing 25
+            ypos -2.2
             text "Rayshift : ":
                 size 22
                 xalign 0.0
