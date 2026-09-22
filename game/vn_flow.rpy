@@ -369,3 +369,4 @@ label play_war:
     hide screen vn_fade_layer
     hide screen vn_wipe_layer
     hide screen vn_stage
+    jump start

@@ -160,14 +160,14 @@ def _parse_command_node(token: str):
             "slot": token_parts[1],
             "tags": {"charaFadeout": token},
         }
-    if command == "charafilter" and len(token_parts) >= 2:
+    if command == "charafilter" and len(token_parts) >= 3:
         return {
             "type": "chara_filter",
             "slot": token_parts[1],
             "filter": token_parts[2],
             "tags": {"charaFilter": token},
         }
-    if command == "communicationchara" and len(token_parts) >= 5:
+    if command == "communicationchara" and len(token_parts) >= 6:
         return {
             "type": "communication_chara",
             "chara_id": token_parts[1],
@@ -177,13 +177,13 @@ def _parse_command_node(token: str):
             "face": token_parts[5],
             "tags": {"communicationChara": token},
         }
-    if command == "communicationcharaface" and len(token_parts) >= 1:
+    if command == "communicationcharaface" and len(token_parts) >= 2:
         return {
             "type": "communication_charaface",
             "face": token_parts[1],
             "tags": {"communicationCharaFace": token},
         }
-    if command == "communicationcharaloop" and len(token_parts) >= 5:
+    if command == "communicationcharaloop" and len(token_parts) >= 6:
         return {
             "type": "communication_charaloop",
             "chara_id": token_parts[1],
