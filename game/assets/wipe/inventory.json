@@ -1,0 +1,658 @@
+[
+  {
+    "name": "animal",
+    "texture": "animal",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "9d3706fb795f5dd1e9cfd5475db290e9bc513070393e61c2d4b1d9034e77b63f",
+    "png": "animal.png"
+  },
+  {
+    "name": "animalCross",
+    "texture": "animalCross",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "17b5ef59ce5ed79c87c9b011bb06592398a3e1fa8dd1b0326f1cc7c13d6bf9b9",
+    "png": "animalCross.png"
+  },
+  {
+    "name": "blackFire",
+    "texture": "blackFire",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "fb69e360a0ce7b72e810623260636c1d9a47dcece942f4ceca6f7214e6c07354",
+    "png": "blackFire.png"
+  },
+  {
+    "name": "checkLeft",
+    "texture": "checkLeft",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "52806a762cc130030dc19f0c9ffb18ad07369ddc48ac4bb53b46616d3763ce8c",
+    "png": "checkLeft.png"
+  },
+  {
+    "name": "checkLeftSmall",
+    "texture": "checkLeftSmall",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "2f93291f25853d26cf1625ba389b864441684812f9cddabcf1f566c9adbd8ed6",
+    "png": "checkLeftSmall.png"
+  },
+  {
+    "name": "checkRight",
+    "texture": "checkRight",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "e3c55b999558dbbb3f31dc2fe0fbfebe6ff1f3e0f376d873b6285d264029e60a",
+    "png": "checkRight.png"
+  },
+  {
+    "name": "checkRightSmall",
+    "texture": "checkRightSmall",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "c164be9c54db46797dcfadb91e57000c508ad6855fac3ea18ebc0cde86a156b7",
+    "png": "checkRightSmall.png"
+  },
+  {
+    "name": "cinema",
+    "texture": "cinema",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "b23945615a80afbba2d7814b51d7386c67741e158f261334015c3718a4a34aa9",
+    "png": "cinema.png"
+  },
+  {
+    "name": "circleIn",
+    "texture": "circleIn",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "5a4de8163560be3bdf3435f9e3028e650f2818adf8b6fb199f2a01e63eabcf43",
+    "png": "circleIn.png"
+  },
+  {
+    "name": "circleOut",
+    "texture": "circleOut",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "332f1f5d497fe2a90ed2679bc1686eb6a8ece2dc0f2ffb434b3e108668c3b47c",
+    "png": "circleOut.png"
+  },
+  {
+    "name": "clash",
+    "texture": "clash",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "e83f09795c007f52175cd6fda5881484d13fee197a890c8890014676cc1d39fd",
+    "png": "clash.png"
+  },
+  {
+    "name": "crossStripe",
+    "texture": "crossStripe",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "345565d5caf5b4e8f47d417fcb3d6cf86dc13b61580f830567c74b3529fd12d1",
+    "png": "crossStripe.png"
+  },
+  {
+    "name": "cutAcross",
+    "texture": "cutAcross",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "082c9b503978a6ea5ce3ec9ea0b4f2e27c55e8710fac4e0b66919690003db7f6",
+    "png": "cutAcross.png"
+  },
+  {
+    "name": "cutSide",
+    "texture": "cutSide",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "acdec5e4c43aa3641741ddeb61dc7f539da84a6c1551efd66b87190babf99433",
+    "png": "cutSide.png"
+  },
+  {
+    "name": "cutVer",
+    "texture": "cutVer",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "c0a81568bc6a8fc26ce2d3f7fae37ba6bba9e9bd289713385e5f8b76b9fd81e5",
+    "png": "cutVer.png"
+  },
+  {
+    "name": "damage",
+    "texture": "damage",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "9792201298aedcf8036150ca1b5883dfc839c540037d6a13e2ad805deb32edd5",
+    "png": "damage.png"
+  },
+  {
+    "name": "diaOut",
+    "texture": "diaOut",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "58f727731c0ee851a6bf1f69c1c9c0ee40a253f3464c251a43370dcb734b0e4a",
+    "png": "diaOut.png"
+  },
+  {
+    "name": "downToUp",
+    "texture": "downToUp",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "1157c7ad858f8217ce956482d66e31153cc7694686517f4fdb425293254c6df7",
+    "png": "downToUp.png"
+  },
+  {
+    "name": "fire",
+    "texture": "fire",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "1b431fd14816ad769fe3b5c5b4719571bb45ad6f24b9e09bf7eb23aa9ba6d3f8",
+    "png": "fire.png"
+  },
+  {
+    "name": "gunya",
+    "texture": "gunya",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "39f78ae207c8155a03d1f49053ba7688189b2d2780cd5b80c2e39de6c0a44331",
+    "png": "gunya.png"
+  },
+  {
+    "name": "gunyaTuyo",
+    "texture": "gunyaTuyo",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "753e0bfd45a1ad2d2f2c954b471bc9ff0bfda14b551f67bcb7b2e325fa0eaaee",
+    "png": "gunyaTuyo.png"
+  },
+  {
+    "name": "guruguru",
+    "texture": "guruguru",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "93ad3cec2c20aa5a1f1f6dc37aa9810f3a27df2cd02c3bff8f1c5a1767046cff",
+    "png": "guruguru.png"
+  },
+  {
+    "name": "heartOut",
+    "texture": "heartOut",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "cb7f523fa6c4757c3c5fbe45415a862aec9e7ace03b50c39c1dc4966681cfa02",
+    "png": "heartOut.png"
+  },
+  {
+    "name": "heartOutBig",
+    "texture": "heartOutBig",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "572e21eff5acc2784c4aba0a01d19a6659c1c939616b0c480ca075910c385667",
+    "png": "heartOutBig.png"
+  },
+  {
+    "name": "heartOutSmall",
+    "texture": "heartOutSmall",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "d74876e217fd9498fe053dfa71e54ad9d2f9e94861ee6ae84f2611bfc068fd0c",
+    "png": "heartOutSmall.png"
+  },
+  {
+    "name": "leftDownToRightUp",
+    "texture": "leftDownToRightUp",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "0bc9c6f2785ba8c6ef1e74e3c6cd8394b4af66449c1b001251f144c4677e0950",
+    "png": "leftDownToRightUp.png"
+  },
+  {
+    "name": "leftToRight",
+    "texture": "leftToRight",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "8cd9b44228055b56bfb83eed57d81d2e779541b139befa5f5727f370c9c0ad23",
+    "png": "leftToRight.png"
+  },
+  {
+    "name": "leftUpToRightDown",
+    "texture": "leftUpToRightDown",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "8ddcb37fe9ce3f391fd00365c790a5e850c236955d67d0ca1789f1f44f472564",
+    "png": "leftUpToRightDown.png"
+  },
+  {
+    "name": "lineAcross",
+    "texture": "lineAcross",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "09746308de4808f73b33b91bbc2f01fada27bce4b55f5f383bc261ff471a7b07",
+    "png": "lineAcross.png"
+  },
+  {
+    "name": "lineAcrossBig",
+    "texture": "lineAcrossBig",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "5076f9f57a0804f1e14ca477f638eb72cb2d87027655adee2744fb329dc49b22",
+    "png": "lineAcrossBig.png"
+  },
+  {
+    "name": "loveHeartIn",
+    "texture": "loveHeartIn",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "b7110eeea2c401c1b50070be487afcdf3afd252e79b723a1aa47cc7f7343f4c4",
+    "png": "loveHeartIn.png"
+  },
+  {
+    "name": "loveHeartOut",
+    "texture": "loveHeartOut",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "08e0263b63a351fc22e928868a4545d8da7c24ad5d78111d80291d9f5534bdeb",
+    "png": "loveHeartOut.png"
+  },
+  {
+    "name": "magic",
+    "texture": "magic",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "d5097134abf0a22dfa36f1cd78aa7da6dd2b47264b49404c5731998605b647cf",
+    "png": "magic.png"
+  },
+  {
+    "name": "mezo",
+    "texture": "mezo",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "5a58131248657a59d81b22ac992602aff44e2887d18c5c209f57aebad3059120",
+    "png": "mezo.png"
+  },
+  {
+    "name": "moya",
+    "texture": "moya",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "de8800b62e677c54433ef58dce6b422944b9177507ca19385735ab0297da5b4e",
+    "png": "moya.png"
+  },
+  {
+    "name": "moza",
+    "texture": "moza",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "1e8af1f17021b6b11896d3f82e748f43c914cd2aa9394f7033b713e1722b3a62",
+    "png": "moza.png"
+  },
+  {
+    "name": "mozaFade",
+    "texture": "mozaFade",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "c37250202b62b32a88e5a00d3eed7dbe95f228a4c18401eb836a502501089dc5",
+    "png": "mozaFade.png"
+  },
+  {
+    "name": "noise",
+    "texture": "noise",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "14b5865c61fdc36b38719badce7332f25236df9d6b23b15e05398100d1655954",
+    "png": "noise.png"
+  },
+  {
+    "name": "noiseUzumaki",
+    "texture": "noiseUzumaki",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "4377d677d5ee7746ce4063348a7c85a55e513ce042b0635366f38feb2171d007",
+    "png": "noiseUzumaki.png"
+  },
+  {
+    "name": "openEye",
+    "texture": "openEye",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "d20698eb4e45077265ea8e69e7f781e36911445c5ba8cba9528740c0d28806f1",
+    "png": "openEye.png"
+  },
+  {
+    "name": "paper",
+    "texture": "paper",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "a661b51ceb49656d7d032f076ca3f75c76d8bd92fcd22b2bdbe3f11a3349d8ac",
+    "png": "paper.png"
+  },
+  {
+    "name": "polka01",
+    "texture": "polka01",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "23ec212ac7a2111f9dd9753de10cd60e12d5645d47464a56847151d66eb1863d",
+    "png": "polka01.png"
+  },
+  {
+    "name": "polka02",
+    "texture": "polka02",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "50802d9c809f226f2e5e5e84832c1fe8c3c943cca5ded94709ddb2740aa6dddc",
+    "png": "polka02.png"
+  },
+  {
+    "name": "polka03",
+    "texture": "polka03",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "f25029019c02a018a48c67cedc06cd4ecd09957a9215bcf35e06e80b9364a980",
+    "png": "polka03.png"
+  },
+  {
+    "name": "polka04",
+    "texture": "polka04",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "dce9da7eb0f36f9124d28fcb5d4f459f8fd9e6411c9e550fac83145a275a9f78",
+    "png": "polka04.png"
+  },
+  {
+    "name": "polka05",
+    "texture": "polka05",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "beee409faa990158400364d972ae25f629ccad2484e0631ca1863853fd18decc",
+    "png": "polka05.png"
+  },
+  {
+    "name": "polka06",
+    "texture": "polka06",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "793fafc22bcc5e1864feb9de1e1c8e268375ed207e827f9ca6174cc6aa47b75a",
+    "png": "polka06.png"
+  },
+  {
+    "name": "rectangleStripDownToUp",
+    "texture": "rectangleStripDownToUp",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "4bacc09a8ecc7a7b9ca15e1f3230de0c867976faecd5424facb472bcb6bb8d27",
+    "png": "rectangleStripDownToUp.png"
+  },
+  {
+    "name": "rectangleStripLeftToRight",
+    "texture": "rectangleStripLeftToRight",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "5529e7d50bea17e6b21414139095a01142c51a59c6215d0a9257f56e3644a749",
+    "png": "rectangleStripLeftToRight.png"
+  },
+  {
+    "name": "rectangleStripRightToLeft",
+    "texture": "rectangleStripRightToLeft",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "2d08cf39125b276cd4286050e6568a0ddfdfe212c1764096008df55692efe76e",
+    "png": "rectangleStripRightToLeft.png"
+  },
+  {
+    "name": "rectangleStripUpToDown",
+    "texture": "rectangleStripUpToDown",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "134e59fef144ef16aed855177dad3c056629be73129f97236fe3483f45ee7cf7",
+    "png": "rectangleStripUpToDown.png"
+  },
+  {
+    "name": "rightDownToLeftUp",
+    "texture": "rightDownToLeftUp",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "11c6a079c03c944447d7e16c289e409b2de13717b222fe7c84fb3f05ff3d3a1d",
+    "png": "rightDownToLeftUp.png"
+  },
+  {
+    "name": "rightToLeft",
+    "texture": "rightToLeft",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "4fc1584ea8b2ed24dc7373f8ac769ede4a6da77296d932ca2398528d4651bba4",
+    "png": "rightToLeft.png"
+  },
+  {
+    "name": "rightUpToLeftDown",
+    "texture": "rightUpToLeftDown",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "b74b1ac7b03b5480684ae872ab374621f10bde86be3b47614a52012243140044",
+    "png": "rightUpToLeftDown.png"
+  },
+  {
+    "name": "rollFlashRight",
+    "texture": "rollFlashRight",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "c220b8a6e9d58dca656ee3fd9f4ccc31d675419d6c1637c3ab7ef491929acdc2",
+    "png": "rollFlashRight.png"
+  },
+  {
+    "name": "rollLeft",
+    "texture": "rollLeft",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "fb15646f53014eaa3035c9da4a499b2be1afde14a6cd4f6347f9ccbaa9588730",
+    "png": "rollLeft.png"
+  },
+  {
+    "name": "rollRight",
+    "texture": "rollRight",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "753d6071606789223ffc32efb8114be632b950f1e01a620ac457e93fdd96db4e",
+    "png": "rollRight.png"
+  },
+  {
+    "name": "sazanami",
+    "texture": "sazanami",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "80e0eb8af15147c886be2ef7cfd73739223dffc6875212284e9a8765940435da",
+    "png": "sazanami.png"
+  },
+  {
+    "name": "sideBlind",
+    "texture": "sideBlind",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "4cb4b53add86e1a742393cc0e0a235b2a68dcddab3f2af3b44ddcbd74fafb7a0",
+    "png": "sideBlind.png"
+  },
+  {
+    "name": "sideStripe",
+    "texture": "sideStripe",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "10f1db2b12224a9c671e79bee680849a73d7cb12e02666ac3335f6abd52e2b5b",
+    "png": "sideStripe.png"
+  },
+  {
+    "name": "simpleHeartIn",
+    "texture": "simpleHeartIn",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "7f88da80b29c59a409f5c8756698accf3da137e9f76322ff8a3400c23de90feb",
+    "png": "simpleHeartIn.png"
+  },
+  {
+    "name": "simpleHeartOut",
+    "texture": "simpleHeartOut",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "0a4a2284fb74c458f84a452cc24be2641948e7a6a0da305d2cf5c7aecafb5ccb",
+    "png": "simpleHeartOut.png"
+  },
+  {
+    "name": "square",
+    "texture": "square",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "e70e19506b3c22b291ae1c1809ab6ef5d66822a305cb58a58a0deed23f991737",
+    "png": "square.png"
+  },
+  {
+    "name": "squareDia",
+    "texture": "squareDia",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "076248b31c711e96f5ab235c05c3d45a9e45155b08cad4fe523644abd6357379",
+    "png": "squareDia.png"
+  },
+  {
+    "name": "unCheckLeft",
+    "texture": "unCheckLeft",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "7004810a04e55ed8007423ba2fc2ea27dbd9d383c7194d41166824d38bb6f304",
+    "png": "unCheckLeft.png"
+  },
+  {
+    "name": "unCheckLeftSmall",
+    "texture": "unCheckLeftSmall",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "27892c65cdd84dd1d4604b882d27f397942f3c6aca0c6e4da821de4a3704e117",
+    "png": "unCheckLeftSmall.png"
+  },
+  {
+    "name": "unCheckRight",
+    "texture": "unCheckRight",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "4a202ac2e6ad258eaa0718d6b96e6df2eb462a05f03895556dec4e7ade248a16",
+    "png": "unCheckRight.png"
+  },
+  {
+    "name": "unCheckRightSmall",
+    "texture": "unCheckRightSmall",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "c0150781f8a3bb118846035b4d61ecaffad0ae15615810357784a32f236d5cb6",
+    "png": "unCheckRightSmall.png"
+  },
+  {
+    "name": "unGuruguru",
+    "texture": "unGuruguru",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "2f456705b0c5baf6a00d0d6919031183366da9b9222ebe8b75acf1ae00edb8a1",
+    "png": "unGuruguru.png"
+  },
+  {
+    "name": "unSquare",
+    "texture": "unSquare",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "a24dd4a90a93389cb527bdaec00f0d9fdcdfa6e9af3abac2c6f9c576644406e3",
+    "png": "unSquare.png"
+  },
+  {
+    "name": "unSquareDia",
+    "texture": "unSquareDia",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "d33b491a345a970b6832c80b1e6c861a4313ac13d2c7188741d19fa1820b83e4",
+    "png": "unSquareDia.png"
+  },
+  {
+    "name": "unV",
+    "texture": "unV",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "29450fc50e39ee855df24220cbe2b1e2bc4bf9a443a6a206f77f8b49001ee712",
+    "png": "unV.png"
+  },
+  {
+    "name": "upToDown",
+    "texture": "upToDown",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "07bf7015f5d33a9976fc806cc9f44624c2b4623e1adc1b735901c7c27464cc47",
+    "png": "upToDown.png"
+  },
+  {
+    "name": "uzumaki",
+    "texture": "uzumaki",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "845eb4ee6e01cd6aecf294609c3c8bff7c698e531d815cd41a81afc268a8b394",
+    "png": "uzumaki.png"
+  },
+  {
+    "name": "uzumakiBig",
+    "texture": "uzumakiBig",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "3f33ddfad888d1079ebff6448bacc5f1254f75af8416cc5fbb16ace6a0c13d3a",
+    "png": "uzumakiBig.png"
+  },
+  {
+    "name": "V",
+    "texture": "V",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "c21c9662463b537be5294ca91d7561f965f43ab97fd0a0e2a5ca6574d06b5a0a",
+    "png": "V.png"
+  },
+  {
+    "name": "verBlind",
+    "texture": "verBlind",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "f412d5dda8f18f0c2665de4fb2807417d11c9546ad7a0fb95b9520b469903ca5",
+    "png": "verBlind.png"
+  },
+  {
+    "name": "verStripe",
+    "texture": "verStripe",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "0d1a3c3352cd92b10f5456ec85b7236f3ecbf67e5b0fba7d34ee537293ced8e2",
+    "png": "verStripe.png"
+  },
+  {
+    "name": "windLeft",
+    "texture": "windLeft",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "51976531646b6c7f0846a0e1af7757686fccc808989f8e48f258aaa51b671baa",
+    "png": "windLeft.png"
+  },
+  {
+    "name": "windmill",
+    "texture": "windmill",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "4965af938365a0ad4c2d2a97192b65c0fab66ce9d4ec3de2671f3b337ac9c12d",
+    "png": "windmill.png"
+  },
+  {
+    "name": "windRight",
+    "texture": "windRight",
+    "width": 512,
+    "height": 512,
+    "bundle_sha256": "4ff772429ca8f4606c20e11a68e2982036cc90a9e3f3787ea89c3413a39f6c45",
+    "png": "windRight.png"
+  },
+  {
+    "name": "wormEaten",
+    "texture": "wormEaten",
+    "width": 1024,
+    "height": 1024,
+    "bundle_sha256": "3f1cebe4b1123ad958a80b4bc12041ce179931c661f1c819ffa1d09d38b1ee5e",
+    "png": "wormEaten.png"
+  }
+]

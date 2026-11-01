@@ -8,3 +8,22 @@ game/__pycache__
 game/script.rpyc
 game/script.rpyc
 game/saves/navigation.json
+
+# Ren'Py compiled files and local state
+*.rpyc
+*.rpymc
+__pycache__/
+game/cache/
+game/saves/
+
+# Local backups and editor snapshots
+*.bak
+*.bak[0-9]*
+*.bak_*
+_backups/
+backups_*/
+game/_backups/
+game/backups_*/
+
+# Local-only test harnesses and reports
+tests/

@@ -1,5 +1,11 @@
 {
     "language": "NA",
     "Rayshift": true,
-    "Title": "Part1"
+    "Title": "Part1",
+    "textSpeed": 1.0,
+    "autoWait": 2.0,
+    "masterName": "Ritsuka",
+    "masterGender": 1,
+    "requireInput": true,
+    "offline": false
 }
